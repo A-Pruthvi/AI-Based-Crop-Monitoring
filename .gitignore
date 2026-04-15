@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+.venv-tf312/
+
+# Models (VERY IMPORTANT - large files)
+*.h5
+
+# Large datasets only (NOT all JSON)
+bigdataset/
+
+# Logs & temp
+*.log
+
+# VS Code
+.vscode/
+
+# Java build
+target/
+
+# Uploads (generated images)
+drone-backend/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
