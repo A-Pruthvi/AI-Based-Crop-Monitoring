@@ -18,6 +18,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
+import java.util.Collections;
 
 @Component
 @RequiredArgsConstructor
@@ -36,7 +37,24 @@ public class JwtFilter extends OncePerRequestFilter {
         try {
             String jwt = parseJwt(request);
             
-            if (jwt != null && jwtUtil.validateToken(jwt)) {
+            // Handle demo tokens (for testing without database)
+            if (jwt != null && jwt.startsWith("demo-jwt-token-")) {
+                // For demo tokens, set a basic authenticated context
+                UsernamePasswordAuthenticationToken authentication = 
+                        new UsernamePasswordAuthenticationToken(
+                                "demoUser",
+                                null,
+                                Collections.emptyList()
+                        );
+                
+                authentication.setDetails(
+                        new WebAuthenticationDetailsSource().buildDetails(request)
+                );
+                
+                SecurityContextHolder.getContext().setAuthentication(authentication);
+                log.debug("Demo token authenticated for request");
+            } else if (jwt != null && jwtUtil.validateToken(jwt)) {
+                // Handle real JWT tokens
                 String username = jwtUtil.extractUsername(jwt);
                 
                 UserDetails userDetails = userDetailsService.loadUserByUsername(username);

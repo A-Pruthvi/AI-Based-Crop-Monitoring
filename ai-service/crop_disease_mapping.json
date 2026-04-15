@@ -1,0 +1,19 @@
+{
+  "crop_disease_map": {
+    "Rice": ["Bacterial leaf blight", "Brown spot", "Leaf smut"],
+    "Tomato": ["Bacterial spot", "Early blight", "Late blight", "Leaf Mold", "Septoria leaf spot"],
+    "Potato": ["Early blight", "Late blight", "healthy"],
+    "Corn": ["Cercospora leaf spot", "Common rust", "Northern Leaf Blight"],
+    "Apple": ["Apple scab", "Black rot", "Cedar apple rust"],
+    "Grape": ["Black rot", "Esca", "Leaf blight"]
+  },
+  "crop_names": [
+    "Rice",
+    "Tomato",
+    "Potato",
+    "Corn",
+    "Apple",
+    "Grape"
+  ],
+  "description": "Maps each crop to its possible diseases for validation and filtering"
+}

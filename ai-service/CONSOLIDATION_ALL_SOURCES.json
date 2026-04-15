@@ -1,0 +1,36 @@
+{
+  "total_images": 29787,
+  "train": 21038,
+  "validation": 4344,
+  "test": 4405,
+  "classes": 19,
+  "disease_classes": [
+    "Apple_Apple scab",
+    "Apple_Cedar apple rust",
+    "Banana_Black Sigatoka",
+    "Corn_Gray leaf spot",
+    "Corn_Northern leaf blight",
+    "Grape_Downy mildew",
+    "Grape_Powdery mildew",
+    "Mango_Anthracnose",
+    "Pepper_Anthracnose",
+    "Potato_Early blight",
+    "Potato_Late blight",
+    "Rice_Bacterial leaf blight",
+    "Rice_Brown spot",
+    "Rice_Leaf smut",
+    "Tomato_Early blight",
+    "Tomato_Tomato mosaic virus",
+    "Tomato_Tomato yellow leaf curl",
+    "Wheat_Powdery mildew",
+    "Wheat_Septoria leaf blotch"
+  ],
+  "sources_consolidated": [
+    "dataset_combined",
+    "dataset_multi_crop",
+    "dataset_multi_crop_synthetic",
+    "dataset_preprocessed"
+  ],
+  "duplicates_skipped": 23231,
+  "failed_files": []
+}

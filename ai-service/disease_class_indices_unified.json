@@ -1,0 +1,21 @@
+{
+  "0": "Apple_Apple scab",
+  "1": "Apple_Cedar apple rust",
+  "2": "Banana_Black Sigatoka",
+  "3": "Corn_Gray leaf spot",
+  "4": "Corn_Northern leaf blight",
+  "5": "Grape_Downy mildew",
+  "6": "Grape_Powdery mildew",
+  "7": "Mango_Anthracnose",
+  "8": "Pepper_Anthracnose",
+  "9": "Potato_Early blight",
+  "10": "Potato_Late blight",
+  "11": "Rice_Bacterial leaf blight",
+  "12": "Rice_Brown spot",
+  "13": "Rice_Leaf smut",
+  "14": "Tomato_Early blight",
+  "15": "Tomato_Tomato mosaic virus",
+  "16": "Tomato_Tomato yellow leaf curl",
+  "17": "Wheat_Powdery mildew",
+  "18": "Wheat_Septoria leaf blotch"
+}

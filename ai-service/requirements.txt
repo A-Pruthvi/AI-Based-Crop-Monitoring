@@ -1,20 +1,6 @@
-# AI Service - Drone Crop Monitoring System
-# Python Dependencies
-
-# Flask Web Framework
-flask>=3.0.0
-flask-cors>=4.0.0
-
-# Image Processing
-pillow>=10.1.0
-numpy>=1.26.0
-
-# Utilities
-python-dotenv>=1.0.0
-werkzeug>=3.0.1
-
-# Deep Learning (optional - install manually if needed)
-# tensorflow>=2.15.0
-# keras>=3.0.0
-# h5py>=3.10.0
-# opencv-python>=4.8.1.78
+tensorflow>=2.21.0
+numpy>=2.4.0
+Pillow>=10.0.0
+matplotlib>=3.10.0
+scikit-learn>=1.8.0
+opencv-python>=4.13.0

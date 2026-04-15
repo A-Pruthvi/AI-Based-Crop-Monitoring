@@ -1,0 +1,19 @@
+{
+    "overall_accuracy": 0.041666666666666664,
+    "per_class_accuracy": {
+        "Bacterial leaf blight": 0.0,
+        "Brown spot": 0.125,
+        "Leaf smut": 0.0
+    },
+    "training_final_loss": 0.32907408475875854,
+    "validation_final_loss": 0.5972485542297363,
+    "training_final_accuracy": 0.8666666746139526,
+    "validation_final_accuracy": 0.7916666865348816,
+    "epochs_trained": 10,
+    "num_classes": 3,
+    "classes": [
+        "Bacterial leaf blight",
+        "Brown spot",
+        "Leaf smut"
+    ]
+}

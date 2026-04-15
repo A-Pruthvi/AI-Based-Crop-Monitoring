@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-24T11:26:43.521469",
+  "dataset": "dataset",
+  "mode": "disease",
+  "crop_model": null,
+  "disease_model": {
+    "model_path": "model\\disease_classifier_vgg16.h5",
+    "class_map_path": "model\\disease_class_indices.json",
+    "val_loss": 0.5103771686553955,
+    "val_accuracy": 0.8333333134651184,
+    "num_classes": 3.0
+  }
+}

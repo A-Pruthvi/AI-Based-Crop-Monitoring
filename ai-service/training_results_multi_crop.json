@@ -1,0 +1,101 @@
+{
+  "Apple": {
+    "diseases": 4,
+    "train_acc": 0.6499999761581421,
+    "val_acc": 0.4000000059604645,
+    "disease_list": [
+      "Apple scab",
+      "Black Rot",
+      "Cedar apple rust",
+      "Scab"
+    ]
+  },
+  "Banana": {
+    "diseases": 2,
+    "train_acc": 1.0,
+    "val_acc": 1.0,
+    "disease_list": [
+      "Black Sigatoka",
+      "Sigatoka"
+    ]
+  },
+  "Corn": {
+    "diseases": 4,
+    "train_acc": 1.0,
+    "val_acc": 1.0,
+    "disease_list": [
+      "Common Rust",
+      "Gray leaf spot",
+      "Leaf Blight",
+      "Northern leaf blight"
+    ]
+  },
+  "Grape": {
+    "diseases": 3,
+    "train_acc": 1.0,
+    "val_acc": 1.0,
+    "disease_list": [
+      "Black Rot",
+      "Leaf Blight",
+      "Powdery mildew"
+    ]
+  },
+  "Mango": {
+    "diseases": 1,
+    "train_acc": 1.0,
+    "val_acc": 1.0,
+    "disease_list": [
+      "Anthracnose"
+    ]
+  },
+  "Pepper": {
+    "diseases": 2,
+    "train_acc": 1.0,
+    "val_acc": 1.0,
+    "disease_list": [
+      "Anthracnose",
+      "Bacterial Spot"
+    ]
+  },
+  "Potato": {
+    "diseases": 2,
+    "train_acc": 0.5,
+    "val_acc": 0.5,
+    "disease_list": [
+      "Early Blight",
+      "Late Blight"
+    ]
+  },
+  "Rice": {
+    "diseases": 4,
+    "train_acc": 0.8666666746139526,
+    "val_acc": 0.7666666507720947,
+    "disease_list": [
+      "Bacterial Blight",
+      "Bacterial leaf blight",
+      "Brown Spot",
+      "Leaf Smut"
+    ]
+  },
+  "Tomato": {
+    "diseases": 4,
+    "train_acc": 0.949999988079071,
+    "val_acc": 0.7666666507720947,
+    "disease_list": [
+      "Early Blight",
+      "Late Blight",
+      "Leaf Mold",
+      "Septoria leaf spot"
+    ]
+  },
+  "Wheat": {
+    "diseases": 3,
+    "train_acc": 1.0,
+    "val_acc": 1.0,
+    "disease_list": [
+      "Powdery Mildew",
+      "Septoria",
+      "Septoria Tritici Blotch"
+    ]
+  }
+}

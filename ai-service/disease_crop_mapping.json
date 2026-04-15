@@ -1,0 +1,38 @@
+{
+  "crops": {
+    "cereals": ["Rice", "Wheat", "Corn"],
+    "vegetables": ["Tomato", "Potato", "Pepper", "Onion", "Eggplant"],
+    "fruits": ["Apple", "Grape", "Banana", "Mango", "Orange"],
+    "others": ["Soybean", "Cotton", "Sugarcane", "Groundnut", "Coffee", "Tea", "Mustard"]
+  },
+  "disease_mapping": {
+    "Rice": ["Brown Spot", "Leaf Smut", "Bacterial Blight"],
+    "Tomato": ["Early Blight", "Late Blight", "Leaf Mold"],
+    "Potato": ["Early Blight", "Late Blight"],
+    "Corn": ["Common Rust", "Leaf Blight"],
+    "Apple": ["Scab", "Black Rot"],
+    "Grape": ["Black Rot", "Leaf Blight"],
+    "Pepper": ["Bacterial Spot"],
+    "Soybean": ["Rust"],
+    "Cotton": ["Leaf Curl"],
+    "Banana": ["Sigatoka"],
+    "Mango": ["Anthracnose"],
+    "Orange": ["Canker"],
+    "Onion": ["Pink Root", "Fusarium Basal Rot"],
+    "Eggplant": ["Phomopsis Blight"],
+    "Wheat": ["Septoria Tritici Blotch", "Powdery Mildew"],
+    "Groundnut": ["Leaf Spot"],
+    "Coffee": ["Rust", "Leaf Rust"],
+    "Tea": ["Blight"],
+    "Mustard": ["White Rust"],
+    "Sugarcane": ["Red Rot", "Smut"]
+  },
+  "total_crops": 20,
+  "total_unique_diseases": 28,
+  "metadata": {
+    "version": "1.0",
+    "description": "Comprehensive crop and disease mapping for 20 major global crops",
+    "created": "2026-03-25",
+    "purpose": "Supports multi-crop disease detection pipeline"
+  }
+}

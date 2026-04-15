@@ -1,0 +1,22 @@
+{
+  "Bacterial leaf blight": {
+    "cause": "Bacterial infection spread through water and infected plant debris",
+    "treatment": "Apply a copper-based fungicide to control the spread of the disease",
+    "prevention": "Avoid overhead irrigation to minimize leaf wetness. Plant resistant varieties if available"
+  },
+  "Brown spot": {
+    "cause": "Fungal infection that thrives in warm, humid conditions",
+    "treatment": "Use a fungicide containing propiconazole or azoxystrobin. Improve field drainage and ensure balanced nutrition",
+    "prevention": "Ensure proper spacing between plants to improve air circulation. Avoid excessive nitrogen fertilization"
+  },
+  "Leaf smut": {
+    "cause": "Fungal spores present in soil and on plant debris",
+    "treatment": "Remove and destroy infected plant parts. Apply a fungicide containing mancozeb or carbendazim",
+    "prevention": "Practice crop rotation to reduce the buildup of the pathogen in the soil. Use certified disease-free seeds"
+  },
+  "Healthy": {
+    "cause": "Plant shows no signs of disease",
+    "treatment": "Continue regular maintenance and monitoring",
+    "prevention": "Maintain regular disease monitoring and good farming practices"
+  }
+}

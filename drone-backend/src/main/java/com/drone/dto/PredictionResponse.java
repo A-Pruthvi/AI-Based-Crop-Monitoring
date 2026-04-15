@@ -29,6 +29,13 @@ public class PredictionResponse {
     private String status;
     private LocalDateTime createdAt;
 
+    // New fields from AI service
+    private String detectedCrop;
+    private Integer plantHealthScore;
+    private String heatmapUrl;
+    private String cause;
+    private String prevention;
+
     public static PredictionResponse fromEntity(Prediction prediction) {
         List<String> treatments = null;
         if (prediction.getTreatmentRecommendations() != null && !prediction.getTreatmentRecommendations().isEmpty()) {
@@ -49,6 +56,11 @@ public class PredictionResponse {
                 .treatmentRecommendations(treatments)
                 .status(prediction.getStatus() != null ? prediction.getStatus().name() : null)
                 .createdAt(prediction.getCreatedAt())
+                .detectedCrop(prediction.getDetectedCrop())
+                .plantHealthScore(prediction.getPlantHealthScore())
+                .heatmapUrl(prediction.getHeatmapUrl())
+                .cause(prediction.getCause())
+                .prevention(prediction.getPrevention())
                 .build();
     }
 }

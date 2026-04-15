@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-03-15T17:09:59.811633",
+  "dataset": "C:\\Users\\pruth\\OneDrive\\Desktop\\EDP PROJECT VI SEM\\ai-service\\dataset",
+  "mode": "all",
+  "crop_model": {
+    "model_path": "model\\crop_classifier_vgg16.h5",
+    "class_map_path": "model\\crop_class_indices.json",
+    "val_loss": 0.8945367932319641,
+    "val_accuracy": 0.7083333134651184,
+    "num_crops": 3.0
+  },
+  "disease_model": {
+    "model_path": "model\\disease_classifier_vgg16.h5",
+    "class_map_path": "model\\disease_class_indices.json",
+    "val_loss": 0.897205650806427,
+    "val_accuracy": 0.7083333134651184,
+    "num_classes": 3.0
+  }
+}

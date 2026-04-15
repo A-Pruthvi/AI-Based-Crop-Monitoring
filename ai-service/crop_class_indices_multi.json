@@ -1,0 +1,14 @@
+{
+  "Apple": 0,
+  "Banana": 1,
+  "combined_train": 2,
+  "combined_validation": 3,
+  "Corn": 4,
+  "Grape": 5,
+  "Mango": 6,
+  "Pepper": 7,
+  "Potato": 8,
+  "Rice": 9,
+  "Tomato": 10,
+  "Wheat": 11
+}

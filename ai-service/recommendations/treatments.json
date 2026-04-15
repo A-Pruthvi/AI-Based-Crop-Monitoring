@@ -1,0 +1,873 @@
+{
+  "treatment_index": {
+    "Apple/Apple scab": {
+      "disease_name": "Apple scab",
+      "crop": "Apple",
+      "severity": "Moderate to Severe",
+      "primary_treatment": {
+        "pesticide": "Mancozeb + Carbendazim",
+        "brand_name": "Fungimax / Bavistin",
+        "dosage": {
+          "value": 2.5,
+          "unit": "ml per liter of water",
+          "frequency": "Every 10-14 days"
+        },
+        "application_method": "Spray entire plant including undersides of leaves",
+        "duration": "7-21 days depending on severity"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Copper sulfate + Sulfur",
+          "dosage": {
+            "value": 3,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 7-10 days"
+        },
+        {
+          "pesticide": "Triadimefon",
+          "dosage": {
+            "value": 1,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10 days"
+        }
+      ],
+      "precautions": [
+        "Avoid spraying during direct sunlight",
+        "Wear protective gear including gloves and mask",
+        "Do not spray during flowering",
+        "Wait 7 days before harvesting",
+        "Store away from children and animals",
+        "Do not mix with alkaline materials"
+      ],
+      "best_practices": [
+        "Remove and destroy infected fruit",
+        "Improve air circulation by pruning",
+        "Maintain proper spacing between trees",
+        "Avoid overhead watering",
+        "Clean pruning tools between cuts"
+      ],
+      "cost_estimate": "₹150-300 per liter",
+      "effectiveness": "85-90%"
+    },
+    "Apple/Cedar apple rust": {
+      "disease_name": "Cedar apple rust",
+      "crop": "Apple",
+      "severity": "Low to Moderate",
+      "primary_treatment": {
+        "pesticide": "Sulfur dust / Sulfur spray",
+        "brand_name": "Sulphur 80WP",
+        "dosage": {
+          "value": 2,
+          "unit": "ml per liter of water",
+          "frequency": "Every 10 days"
+        },
+        "application_method": "Spray on affected leaves and stems",
+        "duration": "14-21 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Copper hydroxide",
+          "dosage": {
+            "value": 2.5,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10-14 days"
+        }
+      ],
+      "precautions": [
+        "Do not use sulfur on plants stressed by drought",
+        "Avoid application in high temperatures (>30°C)",
+        "Do not apply with oil-based sprays",
+        "Spray during early morning or late evening",
+        "Allow 7 days before harvest"
+      ],
+      "best_practices": [
+        "Prune infected branches",
+        "Remove alternate host (juniper) from nearby areas",
+        "Maintain good tree hygiene",
+        "Improve sun exposure"
+      ],
+      "cost_estimate": "₹100-250 per liter",
+      "effectiveness": "75-85%"
+    },
+    "Banana/Black Sigatoka": {
+      "disease_name": "Black Sigatoka (Black Leaf Streak)",
+      "crop": "Banana",
+      "severity": "Severe",
+      "primary_treatment": {
+        "pesticide": "Mancozeb + Metalaxyl-M",
+        "brand_name": "Ridomil MZ",
+        "dosage": {
+          "value": 2.5,
+          "unit": "ml per liter",
+          "frequency": "Every 10-14 days"
+        },
+        "application_method": "Thorough spray covering all leaf surfaces",
+        "duration": "30-45 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Carbendazim + Mancozeb",
+          "dosage": {
+            "value": 2,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 7-10 days"
+        },
+        {
+          "pesticide": "Chlorothalonil",
+          "dosage": {
+            "value": 2.5,
+            "unit": "ml per liter"
+          }
+        }
+      ],
+      "precautions": [
+        "Use in cool, humid conditions only",
+        "Wear full protective clothing",
+        "Avoid spraying on young leaves",
+        "Do not harvest for 14 days after final spray",
+        "Rotate fungicides to prevent resistance"
+      ],
+      "best_practices": [
+        "Remove lower infected leaves",
+        "Improve drainage around plantation",
+        "Maintain proper plant spacing",
+        "Remove banana mats in rotation cycles",
+        "Monitor closely during monsoon season"
+      ],
+      "cost_estimate": "₹200-400 per liter",
+      "effectiveness": "80-88%"
+    },
+    "Corn/Gray leaf spot": {
+      "disease_name": "Gray leaf spot",
+      "crop": "Corn",
+      "severity": "Moderate",
+      "primary_treatment": {
+        "pesticide": "Propiconazole + Azoxystrobin",
+        "brand_name": "Folicur",
+        "dosage": {
+          "value": 1.5,
+          "unit": "ml per liter",
+          "frequency": "Every 14 days"
+        },
+        "application_method": "Spray on affected leaves",
+        "duration": "21-28 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Mancozeb",
+          "dosage": {
+            "value": 2.5,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10 days"
+        }
+      ],
+      "precautions": [
+        "Do not spray during grain filling stage",
+        "Avoid application in extreme heat",
+        "Do not use with copper-based products",
+        "Wait 7 days before harvest",
+        "Keep away from water sources"
+      ],
+      "best_practices": [
+        "Rotate corn variety selection",
+        "Maintain good field sanitation",
+        "Avoid overhead irrigation",
+        "Remove crop residues",
+        "Plant disease-resistant varieties"
+      ],
+      "cost_estimate": "₹120-250 per liter",
+      "effectiveness": "80-85%"
+    },
+    "Corn/Northern leaf blight": {
+      "disease_name": "Northern Corn Leaf Blight",
+      "crop": "Corn",
+      "severity": "Severe",
+      "primary_treatment": {
+        "pesticide": "Azoxystrobin + Propiconazole",
+        "brand_name": "Priaxor",
+        "dosage": {
+          "value": 2,
+          "unit": "ml per liter",
+          "frequency": "Every 10-14 days"
+        },
+        "application_method": "Spray covering entire plant",
+        "duration": "14-21 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Mancozeb + Carbendazim",
+          "dosage": {
+            "value": 2.5,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 7-10 days"
+        }
+      ],
+      "precautions": [
+        "Start treatment early in season",
+        "Do not apply when wet",
+        "Avoid high temperatures (>32°C)",
+        "Rotate active ingredients",
+        "Do not exceed 3 sprays per season"
+      ],
+      "best_practices": [
+        "Plant resistant corn varieties",
+        "Remove infected leaves promptly",
+        "Ensure proper spacing",
+        "Avoid planting same variety in succession",
+        "Monitor weather conditions closely"
+      ],
+      "cost_estimate": "₹150-300 per liter",
+      "effectiveness": "85-90%"
+    },
+    "Grape/Downy mildew": {
+      "disease_name": "Downy mildew",
+      "crop": "Grape",
+      "severity": "Moderate to Severe",
+      "primary_treatment": {
+        "pesticide": "Copper sulfate + Metalaxyl-M",
+        "brand_name": "Ridomil MZ / Copper Oxychloride",
+        "dosage": {
+          "value": 2.5,
+          "unit": "ml per liter",
+          "frequency": "Every 7-10 days"
+        },
+        "application_method": "Thorough coverage of both leaf surfaces",
+        "duration": "30-45 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Dimethomorph",
+          "dosage": {
+            "value": 2,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10 days"
+        },
+        {
+          "pesticide": "Potassium phosphite",
+          "dosage": {
+            "value": 3,
+            "unit": "ml per liter"
+          }
+        }
+      ],
+      "precautions": [
+        "Spray in cool, humid conditions",
+        "Avoid spraying during rain",
+        "Do not spray within 7 days of sulfur",
+        "Wear gloves and eye protection",
+        "Ensure good ventilation in vineyard"
+      ],
+      "best_practices": [
+        "Improve canopy ventilation through pruning",
+        "Remove infected leaves and shoots",
+        "Maintain balanced irrigation",
+        "Avoid overhead watering",
+        "Clean pruning equipment"
+      ],
+      "cost_estimate": "₹200-350 per liter",
+      "effectiveness": "80-88%"
+    },
+    "Grape/Powdery mildew": {
+      "disease_name": "Powdery mildew",
+      "crop": "Grape",
+      "severity": "Low to Moderate",
+      "primary_treatment": {
+        "pesticide": "Sulfur dust / Sulfur spray",
+        "brand_name": "Sulphur WP 80",
+        "dosage": {
+          "value": 2,
+          "unit": "ml per liter",
+          "frequency": "Every 7-10 days"
+        },
+        "application_method": "Dust or spray on entire plant",
+        "duration": "21-28 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Triadimefon",
+          "dosage": {
+            "value": 1.5,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10 days"
+        },
+        {
+          "pesticide": "Karathane (Dinocap)",
+          "dosage": {
+            "value": 1,
+            "unit": "ml per liter"
+          }
+        }
+      ],
+      "precautions": [
+        "Do not use with oil-based products",
+        "Avoid in temperatures > 30°C",
+        "Do not apply to stressed plants",
+        "Spray during cool hours",
+        "Do not use sulfur on copper-treated plants"
+      ],
+      "best_practices": [
+        "Improve air circulation in canopy",
+        "Prune excess foliage",
+        "Remove infected leaves early",
+        "Maintain moderate humidity",
+        "Avoid nitrogen overfeeding"
+      ],
+      "cost_estimate": "₹80-200 per liter",
+      "effectiveness": "85-92%"
+    },
+    "Mango/Anthracnose": {
+      "disease_name": "Anthracnose",
+      "crop": "Mango",
+      "severity": "Moderate to Severe",
+      "primary_treatment": {
+        "pesticide": "Carbendazim + Mancozeb",
+        "brand_name": "Bavistin / Fungimax",
+        "dosage": {
+          "value": 2.5,
+          "unit": "ml per liter",
+          "frequency": "Every 10-14 days"
+        },
+        "application_method": "Spray affecting all parts",
+        "duration": "21-30 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Copper hydroxide",
+          "dosage": {
+            "value": 2,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10 days"
+        },
+        {
+          "pesticide": "Propiconazole",
+          "dosage": {
+            "value": 1,
+            "unit": "ml per liter"
+          }
+        }
+      ],
+      "precautions": [
+        "Do not spray during flowering",
+        "Avoid during fruit development",
+        "Do not use when temperature < 15°C",
+        "Wait 10-14 days before harvest",
+        "Use protective equipment"
+      ],
+      "best_practices": [
+        "Remove all infected fruit",
+        "Destroy fallen leaves and branches",
+        "Improve tree ventilation",
+        "Avoid water logging",
+        "Maintain sanitation around tree base"
+      ],
+      "cost_estimate": "₹150-300 per liter",
+      "effectiveness": "82-88%"
+    },
+    "Pepper/Anthracnose": {
+      "disease_name": "Anthracnose (Pepper)",
+      "crop": "Pepper",
+      "severity": "Moderate",
+      "primary_treatment": {
+        "pesticide": "Carbendazim + Copper oxychloride",
+        "brand_name": "Bavistin + Cupravit",
+        "dosage": {
+          "value": 2,
+          "unit": "ml per liter",
+          "frequency": "Every 10 days"
+        },
+        "application_method": "Spray on all plant parts",
+        "duration": "14-21 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Mancozeb",
+          "dosage": {
+            "value": 2.5,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 7-10 days"
+        }
+      ],
+      "precautions": [
+        "Do not spray during extreme heat/cold",
+        "Ensure proper drying after spray",
+        "Do not expose to rain for 6 hours",
+        "Wear gloves and mask",
+        "Wait 5-7 days before harvest"
+      ],
+      "best_practices": [
+        "Remove infected fruits and twigs",
+        "Improve drainage",
+        "Reduce plant humidity",
+        "Maintain proper spacing",
+        "Remove weeds and plant residues"
+      ],
+      "cost_estimate": "₹120-250 per liter",
+      "effectiveness": "80-85%"
+    },
+    "Potato/Early blight": {
+      "disease_name": "Early blight",
+      "crop": "Potato",
+      "severity": "Moderate",
+      "primary_treatment": {
+        "pesticide": "Mancozeb + Chlorothalonil",
+        "brand_name": "Maneb / Bavistin Mix",
+        "dosage": {
+          "value": 2.5,
+          "unit": "ml per liter",
+          "frequency": "Every 7-10 days"
+        },
+        "application_method": "Cover all foliage thoroughly",
+        "duration": "14-21 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Propiconazole",
+          "dosage": {
+            "value": 1,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10 days"
+        }
+      ],
+      "precautions": [
+        "Start treatment preventively before disease appears",
+        "Do not spray during flowering",
+        "Avoid spray in rain",
+        "Do not harvest for 7 days after final spray",
+        "Rotate fungicides"
+      ],
+      "best_practices": [
+        "Remove lower infected leaves",
+        "Maintain proper spacing",
+        "Ensure good soil drainage",
+        "Remove crop residues promptly",
+        "Rotate crops annually"
+      ],
+      "cost_estimate": "₹100-200 per liter",
+      "effectiveness": "80-85%"
+    },
+    "Potato/Late blight": {
+      "disease_name": "Late blight",
+      "crop": "Potato",
+      "severity": "Severe",
+      "primary_treatment": {
+        "pesticide": "Metalaxyl-M + Mancozeb",
+        "brand_name": "Ridomil MZ",
+        "dosage": {
+          "value": 2.5,
+          "unit": "ml per liter",
+          "frequency": "Every 5-7 days"
+        },
+        "application_method": "Thorough coverage including stems",
+        "duration": "10-14 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Cymoxanil + Mancozeb",
+          "dosage": {
+            "value": 2,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 7 days"
+        },
+        {
+          "pesticide": "Phosphorous acid",
+          "dosage": {
+            "value": 3,
+            "unit": "ml per liter"
+          }
+        }
+      ],
+      "precautions": [
+        "Critical timing - spray immediately after rain",
+        "Do not delay treatment",
+        "Rotate active ingredients to prevent resistance",
+        "Wear protective equipment",
+        "Do not harvest for 7 days"
+      ],
+      "best_practices": [
+        "Destroy infected plant material",
+        "Remove infected tubers",
+        "Monitor weather closely",
+        "Plant resistant varieties",
+        "Leave adequate spacing"
+      ],
+      "cost_estimate": "₹150-300 per liter",
+      "effectiveness": "85-92%"
+    },
+    "Rice/Bacterial leaf blight": {
+      "disease_name": "Bacterial leaf blight",
+      "crop": "Rice",
+      "severity": "Severe",
+      "primary_treatment": {
+        "pesticide": "Copper oxychloride + Tetracycline",
+        "brand_name": "Cupravit / Agrymycin",
+        "dosage": {
+          "value": 2.5,
+          "unit": "ml per liter",
+          "frequency": "Every 7-10 days"
+        },
+        "application_method": "Spray from boot stage onwards",
+        "duration": "14-21 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Copper hydroxide",
+          "dosage": {
+            "value": 2,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10 days"
+        }
+      ],
+      "precautions": [
+        "Do not apply at heading stage",
+        "Use during cooler hours",
+        "Do not mix with alkaline water",
+        "Harvest after 7 days of final spray",
+        "Avoid water logging"
+      ],
+      "best_practices": [
+        "Use disease-resistant varieties",
+        "Remove infected tillers",
+        "Drain field if standing water",
+        "Maintain proper plant nutrition",
+        "Avoid over-watering"
+      ],
+      "cost_estimate": "₹200-350 per liter",
+      "effectiveness": "75-82%"
+    },
+    "Rice/Brown spot": {
+      "disease_name": "Brown spot",
+      "crop": "Rice",
+      "severity": "Moderate",
+      "primary_treatment": {
+        "pesticide": "Propiconazole + Azoxystrobin",
+        "brand_name": "Folicur / Amistar",
+        "dosage": {
+          "value": 1.5,
+          "unit": "ml per liter",
+          "frequency": "Every 10-14 days"
+        },
+        "application_method": "Spray on foliage",
+        "duration": "14-21 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Mancozeb",
+          "dosage": {
+            "value": 2.5,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 7 days"
+        }
+      ],
+      "precautions": [
+        "Do not apply after flowering",
+        "Maintain proper pH of spray water",
+        "Do not mix with sulfur",
+        "Allow 7 days before harvest",
+        "Rotate fungicides"
+      ],
+      "best_practices": [
+        "Improve soil health with organic matter",
+        "Balanced fertilizer application",
+        "Ensure adequate spacing",
+        "Drain excess water",
+        "Clean equipment between fields"
+      ],
+      "cost_estimate": "₹100-200 per liter",
+      "effectiveness": "78-85%"
+    },
+    "Rice/Leaf smut": {
+      "disease_name": "Leaf smut",
+      "crop": "Rice",
+      "severity": "Low to Moderate",
+      "primary_treatment": {
+        "pesticide": "Mancozeb + Carbendazim",
+        "brand_name": "Maneb / Bavistin",
+        "dosage": {
+          "value": 2,
+          "unit": "ml per liter",
+          "frequency": "Every 10-14 days"
+        },
+        "application_method": "Spray on infected leaves",
+        "duration": "10-14 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Neem oil",
+          "dosage": {
+            "value": 5,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 7 days"
+        }
+      ],
+      "precautions": [
+        "Do not apply after boot stage",
+        "Minimize spray during grain filling",
+        "Do not harvest for 5 days",
+        "Maintain proper field sanitation",
+        "Remove infected plant material"
+      ],
+      "best_practices": [
+        "Use certified disease-free seeds",
+        "Remove infected plant parts",
+        "Maintain field drainage",
+        "Rotate crops properly",
+        "Monitor field regularly"
+      ],
+      "cost_estimate": "₹80-150 per liter",
+      "effectiveness": "75-80%"
+    },
+    "Tomato/Early blight": {
+      "disease_name": "Early blight",
+      "crop": "Tomato",
+      "severity": "Moderate to Severe",
+      "primary_treatment": {
+        "pesticide": "Mancozeb + Carbendazim",
+        "brand_name": "Maneb / Bavistin Mix",
+        "dosage": {
+          "value": 2.5,
+          "unit": "ml per liter",
+          "frequency": "Every 7-10 days"
+        },
+        "application_method": "Thorough spray on all leaves",
+        "duration": "14-21 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Chlorothalonil",
+          "dosage": {
+            "value": 2,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10 days"
+        }
+      ],
+      "precautions": [
+        "Start preventive spraying from plant establishment",
+        "Do not work on wet plants",
+        "Remove infected leaves at base",
+        "Wait 5-7 days before harvest",
+        "Use protective gear"
+      ],
+      "best_practices": [
+        "Prune lower leaves regularly",
+        "Improve air circulation",
+        "Avoid overhead watering",
+        "Mulch around plants",
+        "Rotate crop location"
+      ],
+      "cost_estimate": "₹100-200 per liter",
+      "effectiveness": "82-88%"
+    },
+    "Tomato/Tomato mosaic virus": {
+      "disease_name": "Tomato Mosaic Virus (TMV)",
+      "crop": "Tomato",
+      "severity": "Severe",
+      "primary_treatment": {
+        "pesticide": "Neem oil + Insecticidal soap",
+        "brand_name": "Neemrich / Safire",
+        "dosage": {
+          "value": 5,
+          "unit": "ml per liter",
+          "frequency": "Every 5-7 days"
+        },
+        "application_method": "Spray on entire plant including undersides",
+        "duration": "Repeat as needed"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Plant virus disinfectant spray",
+          "dosage": {
+            "value": 10,
+            "unit": "ml per liter"
+          }
+        }
+      ],
+      "precautions": [
+        "Virus is not readily curable - focus on prevention",
+        "Wear gloves when handling",
+        "Clean all tools with bleach solution (1:10)",
+        "Do not touch healthy plants after infected ones",
+        "No harvest possible from severely infected plants"
+      ],
+      "best_practices": [
+        "Use virus-free seeds/seedlings",
+        "Remove infected plants immediately",
+        "Control aphids with insecticides",
+        "Maintain weed-free garden",
+        "Disinfect tools between plants",
+        "Wash hands frequently when working"
+      ],
+      "cost_estimate": "₹100-200 per liter + removal costs",
+      "effectiveness": "Limited - Prevention is best: 90%"
+    },
+    "Tomato/Tomato yellow leaf curl": {
+      "disease_name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+      "crop": "Tomato",
+      "severity": "Severe",
+      "primary_treatment": {
+        "pesticide": "Insecticide (whitefly control) + Neem oil",
+        "brand_name": "Imidacloprid / Confidor + Neem",
+        "dosage": {
+          "value": 1,
+          "unit": "ml per liter",
+          "frequency": "Every 5-7 days"
+        },
+        "application_method": "Spray entire plant focusing on leaf undersides",
+        "duration": "Continuous for vector control"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Pyrethroid-based insecticide",
+          "dosage": {
+            "value": 1.5,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 5 days"
+        }
+      ],
+      "precautions": [
+        "Disease spread by whiteflies - control vectors",
+        "Use yellow sticky traps for monitoring",
+        "Remove infected plants completely",
+        "Do not touch healthy plants after infected",
+        "Wear protective equipment"
+      ],
+      "best_practices": [
+        "Plant resistant varieties",
+        "Use virus-free seedlings",
+        "Control weeds around field",
+        "Use reflective mulch to repel whiteflies",
+        "Rotate field location",
+        "Install insect-proof nets early season"
+      ],
+      "cost_estimate": "₹150-300 per liter + removal",
+      "effectiveness": "Limited - Vector control is key: 80%"
+    },
+    "Wheat/Powdery mildew": {
+      "disease_name": "Powdery mildew",
+      "crop": "Wheat",
+      "severity": "Low to Moderate",
+      "primary_treatment": {
+        "pesticide": "Sulfur wettable powder",
+        "brand_name": "Sulphur WP 80",
+        "dosage": {
+          "value": 2,
+          "unit": "ml per liter",
+          "frequency": "Every 10-14 days"
+        },
+        "application_method": "Dust or spray on all plant parts",
+        "duration": "14-21 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Triadimefon",
+          "dosage": {
+            "value": 1,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 10 days"
+        },
+        {
+          "pesticide": "Karathane",
+          "dosage": {
+            "value": 1,
+            "unit": "ml per liter"
+          }
+        }
+      ],
+      "precautions": [
+        "Do not use with oil-based products",
+        "Avoid temperatures > 28°C during application",
+        "Do not apply sulfur within 2 weeks of oil spray",
+        "Spray during cool hours",
+        "Do not use on stressed plants"
+      ],
+      "best_practices": [
+        "Ensure proper field sanitation",
+        "Optimize nitrogen fertilization",
+        "Avoid dense planting",
+        "Maintain good drainage",
+        "Remove infected plant material"
+      ],
+      "cost_estimate": "₹80-150 per liter",
+      "effectiveness": "85-90%"
+    },
+    "Wheat/Septoria leaf blotch": {
+      "disease_name": "Septoria leaf blotch",
+      "crop": "Wheat",
+      "severity": "Moderate to Severe",
+      "primary_treatment": {
+        "pesticide": "Propiconazole + Mancozeb",
+        "brand_name": "Folicur / Maneb Mix",
+        "dosage": {
+          "value": 2,
+          "unit": "ml per liter",
+          "frequency": "Every 10-14 days"
+        },
+        "application_method": "Spray at boot and grain-filling stages",
+        "duration": "14-21 days"
+      },
+      "alternative_treatments": [
+        {
+          "pesticide": "Azoxystrobin",
+          "dosage": {
+            "value": 1,
+            "unit": "ml per liter"
+          },
+          "frequency": "Every 7-10 days"
+        }
+      ],
+      "precautions": [
+        "Start treatment at boot stage",
+        "Do not spray after grain filling stage",
+        "Allow field to dry before spray",
+        "Harvest 7 days after final spray",
+        "Rotate fungicides to prevent resistance"
+      ],
+      "best_practices": [
+        "Use disease-resistant varieties",
+        "Remove crop residues",
+        "Maintain balanced nutrition",
+        "Ensure good drainage",
+        "Rotate crops annually"
+      ],
+      "cost_estimate": "₹120-250 per liter",
+      "effectiveness": "82-88%"
+    }
+  },
+  "_metadata": {
+    "version": "2.0",
+    "last_updated": "2026-03-27",
+    "total_diseases": 19,
+    "currency": "Indian Rupees",
+    "notes": "Dosages are indicative and may vary based on product concentration. Always follow manufacturer's instructions.",
+    "disclaimer": "These recommendations are general guidelines. Consult local agricultural experts for region-specific advice.",
+    "treatment_structure": {
+      "disease_name": "Common disease name",
+      "crop": "Affected crop",
+      "severity": "Disease severity level",
+      "primary_treatment": "Main recommended treatment with dosage details",
+      "alternative_treatments": "Alternative fungicide options",
+      "precautions": "Safety and application precautions",
+      "best_practices": "Preventive and management practices",
+      "cost_estimate": "Approximate treatment cost",
+      "effectiveness": "Expected effectiveness percentage"
+    }
+  }
+}
+

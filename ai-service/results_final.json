@@ -1,0 +1,62 @@
+{
+  "date": "2026-03-27T16:52:44.272167",
+  "model": "MobileNetV2",
+  "image_size": 256,
+  "epochs": 6,
+  "time_minutes": 1.5569425499999998,
+  "classes": 16,
+  "class_names": [
+    "Anthracnose",
+    "Apple scab",
+    "Bacterial leaf blight",
+    "Black Sigatoka",
+    "Brown spot",
+    "Cedar apple rust",
+    "Downy mildew",
+    "Early blight",
+    "Gray leaf spot",
+    "Late blight",
+    "Leaf smut",
+    "Northern leaf blight",
+    "Powdery mildew",
+    "Septoria leaf blotch",
+    "Tomato mosaic virus",
+    "Tomato yellow leaf curl"
+  ],
+  "test_accuracy": 0.09219858050346375,
+  "test_loss": 2.581037759780884,
+  "train_history": {
+    "accuracy": [
+      0.0841924399137497,
+      0.12714776396751404,
+      0.15807560086250305,
+      0.16151203215122223,
+      0.17697595059871674,
+      0.2147766351699829
+    ],
+    "loss": [
+      3.4563355445861816,
+      3.0613577365875244,
+      2.793328285217285,
+      2.6841166019439697,
+      2.5906968116760254,
+      2.4312634468078613
+    ],
+    "val_accuracy": [
+      0.0791366919875145,
+      0.07194244861602783,
+      0.09352517873048782,
+      0.10071942210197449,
+      0.12949639558792114,
+      0.10791366547346115
+    ],
+    "val_loss": [
+      3.1947412490844727,
+      3.1473679542541504,
+      2.960113763809204,
+      2.6828038692474365,
+      2.500633955001831,
+      2.5585033893585205
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "model": "disease_classifier_unified.h5",
+  "dataset": "dataset_unified",
+  "total_images": 1155,
+  "train_samples": 750,
+  "val_samples": 190,
+  "test_samples": 215,
+  "num_classes": 19,
+  "classes": [
+    "Apple_Apple scab",
+    "Apple_Cedar apple rust",
+    "Banana_Black Sigatoka",
+    "Corn_Gray leaf spot",
+    "Corn_Northern leaf blight",
+    "Grape_Downy mildew",
+    "Grape_Powdery mildew",
+    "Mango_Anthracnose",
+    "Pepper_Anthracnose",
+    "Potato_Early blight",
+    "Potato_Late blight",
+    "Rice_Bacterial leaf blight",
+    "Rice_Brown spot",
+    "Rice_Leaf smut",
+    "Tomato_Early blight",
+    "Tomato_Tomato mosaic virus",
+    "Tomato_Tomato yellow leaf curl",
+    "Wheat_Powdery mildew",
+    "Wheat_Septoria leaf blotch"
+  ],
+  "class_names": {
+    "0": "Apple_Apple scab",
+    "1": "Apple_Cedar apple rust",
+    "2": "Banana_Black Sigatoka",
+    "3": "Corn_Gray leaf spot",
+    "4": "Corn_Northern leaf blight",
+    "5": "Grape_Downy mildew",
+    "6": "Grape_Powdery mildew",
+    "7": "Mango_Anthracnose",
+    "8": "Pepper_Anthracnose",
+    "9": "Potato_Early blight",
+    "10": "Potato_Late blight",
+    "11": "Rice_Bacterial leaf blight",
+    "12": "Rice_Brown spot",
+    "13": "Rice_Leaf smut",
+    "14": "Tomato_Early blight",
+    "15": "Tomato_Tomato mosaic virus",
+    "16": "Tomato_Tomato yellow leaf curl",
+    "17": "Wheat_Powdery mildew",
+    "18": "Wheat_Septoria leaf blotch"
+  },
+  "train_accuracy": 0.36399999260902405,
+  "val_accuracy": 0.24736842513084412,
+  "test_accuracy": 0.23720930516719818,
+  "disease_to_crop": {
+    "Anthracnose": [
+      "Mango",
+      "Pepper"
+    ],
+    "Apple scab": [
+      "Apple"
+    ],
+    "Bacterial leaf blight": [
+      "Rice"
+    ],
+    "Black Sigatoka": [
+      "Banana"
+    ],
+    "Brown spot": [
+      "Rice"
+    ],
+    "Cedar apple rust": [
+      "Apple"
+    ],
+    "Downy mildew": [
+      "Grape"
+    ],
+    "Early blight": [
+      "Potato",
+      "Tomato"
+    ],
+    "Gray leaf spot": [
+      "Corn"
+    ],
+    "Late blight": [
+      "Potato"
+    ],
+    "Leaf smut": [
+      "Rice"
+    ],
+    "Northern leaf blight": [
+      "Corn"
+    ],
+    "Powdery mildew": [
+      "Grape",
+      "Wheat"
+    ],
+    "Septoria leaf blotch": [
+      "Wheat"
+    ],
+    "Tomato mosaic virus": [
+      "Tomato"
+    ],
+    "Tomato yellow leaf curl": [
+      "Tomato"
+    ]
+  },
+  "disease_treatments": {
+    "Anthracnose": [
+      "Remove and destroy infected plant parts",
+      "Apply fungicides (Copper-based or Triazoles)",
+      "Improve air circulation and reduce humidity",
+      "Avoid overhead watering",
+      "Use resistant varieties if available"
+    ],
+    "Apple scab": [
+      "Remove infected leaves and fallen fruit",
+      "Apply sulfur or fungicide sprays",
+      "Prune to improve air circulation",
+      "Clean up fallen leaves in autumn",
+      "Plant resistant apple varieties"
+    ],
+    "Bacterial leaf blight": [
+      "Remove infected leaves and destroy them",
+      "Apply copper-based bactericides",
+      "Avoid overhead irrigation and wet conditions",
+      "Improve drainage and air flow",
+      "Use disease-free seeds and seedlings"
+    ],
+    "Black Sigatoka": [
+      "Remove affected leaves immediately",
+      "Apply fungicide sprays (Mancozeb, Azoxystrobin)",
+      "Ensure good air circulation around plants",
+      "Reduce humidity and wet periods",
+      "Use resistant banana varieties"
+    ],
+    "Brown spot": [
+      "Remove infected leaves and debris",
+      "Apply fungicides (Copper-based or Triazoles)",
+      "Maintain proper plant spacing for air flow",
+      "Avoid overhead watering",
+      "Use clean seeds and resistant varieties"
+    ],
+    "Cedar apple rust": [
+      "Remove infected apple leaves promptly",
+      "Apply fungicide sprays starting early in season",
+      "Eliminate cedar trees nearby if possible",
+      "Plant resistant apple varieties",
+      "Maintain good tree health through proper care"
+    ],
+    "Downy mildew": [
+      "Remove infected leaves and flowers",
+      "Apply copper-based fungicides or sulfur",
+      "Improve air circulation and reduce humidity",
+      "Avoid overhead watering",
+      "Use resistant grape varieties"
+    ],
+    "Early blight": [
+      "Remove lower infected leaves regularly",
+      "Apply fungicide sprays (Chlorothalonil, Mancozeb)",
+      "Mulch to prevent soil splash",
+      "Prune for better air circulation",
+      "Stake plants to keep foliage dry"
+    ],
+    "Gray leaf spot": [
+      "Remove infected leaves promptly",
+      "Apply fungicides (Strobilurins recommended)",
+      "Ensure adequate plant spacing",
+      "Irrigation early in day to minimize wet foliage",
+      "Use resistant corn hybrids"
+    ],
+    "Late blight": [
+      "Remove infected leaves and stems immediately",
+      "Apply copper fungicides or sulfur",
+      "Improve air circulation and drainage",
+      "Avoid overhead irrigation",
+      "Plant resistant varieties"
+    ],
+    "Leaf smut": [
+      "Remove affected leaves and debris",
+      "Apply systemic fungicides",
+      "Ensure proper spacing for air circulation",
+      "Reduce standing water and humidity",
+      "Use disease-free seeds"
+    ],
+    "Northern leaf blight": [
+      "Remove infected leaves and plant debris",
+      "Apply fungicides (Triazoles, Carbamates)",
+      "Practice crop rotation",
+      "Use resistant corn hybrids",
+      "Proper field sanitation"
+    ],
+    "Powdery mildew": [
+      "Remove heavily infected leaves",
+      "Apply sulfur powder or fungicide sprays",
+      "Improve air circulation and light exposure",
+      "Reduce humidity levels",
+      "Use resistant grape or wheat varieties"
+    ],
+    "Septoria leaf blotch": [
+      "Remove infected leaves and debris",
+      "Apply fungicides (Triazoles or Benzoates)",
+      "Improve air circulation",
+      "Rotate crops annually",
+      "Use resistant wheat varieties"
+    ],
+    "Tomato mosaic virus": [
+      "Remove infected plants entirely",
+      "Disinfect tools with bleach between uses",
+      "Avoid working in wet plants",
+      "Wash hands between plants",
+      "Plant resistant tomato varieties"
+    ],
+    "Tomato yellow leaf curl": [
+      "Remove infected plants immediately",
+      "Control whitefly vectors with insecticides",
+      "Use reflective mulches to repel insects",
+      "Use resistant tomato varieties",
+      "Install insect screens on greenhouse"
+    ]
+  },
+  "history": {
+    "loss": [
+      3.640516519546509,
+      3.3455381393432617,
+      3.0354390144348145,
+      2.944652557373047,
+      2.8542301654815674,
+      2.600034713745117,
+      2.5884206295013428,
+      2.4940760135650635,
+      2.441311836242676,
+      2.331238269805908,
+      2.290421724319458,
+      2.2269279956817627,
+      2.1875040531158447,
+      2.1952483654022217,
+      2.05197811126709,
+      2.0296266078948975,
+      2.0240838527679443,
+      1.9620190858840942,
+      2.0065884590148926,
+      1.9198025465011597,
+      1.9430688619613647,
+      1.9084573984146118,
+      1.8810478448867798,
+      1.9040077924728394,
+      1.8649357557296753,
+      1.8694887161254883,
+      1.8449711799621582,
+      1.8755069971084595,
+      1.8263919353485107,
+      1.8152532577514648,
+      1.8234747648239136,
+      1.8059334754943848,
+      1.769156575202942,
+      1.739064335823059,
+      1.7442735433578491,
+      1.823122501373291,
+      1.7910652160644531,
+      1.7815320491790771,
+      1.8218005895614624,
+      1.8210009336471558,
+      1.7445322275161743,
+      1.7948647737503052,
+      1.7607871294021606
+    ],
+    "accuracy": [
+      0.07466666400432587,
+      0.1120000034570694,
+      0.14533333480358124,
+      0.12399999797344208,
+      0.1653333306312561,
+      0.1693333387374878,
+      0.18400000035762787,
+      0.18133333325386047,
+      0.2133333384990692,
+      0.23066666722297668,
+      0.23600000143051147,
+      0.25200000405311584,
+      0.25333333015441895,
+      0.23999999463558197,
+      0.2826666533946991,
+      0.2906666696071625,
+      0.2933333218097687,
+      0.328000009059906,
+      0.2773333191871643,
+      0.2826666533946991,
+      0.2933333218097687,
+      0.2919999957084656,
+      0.30266666412353516,
+      0.30799999833106995,
+      0.30666667222976685,
+      0.2866666615009308,
+      0.3333333432674408,
+      0.31066668033599854,
+      0.3253333270549774,
+      0.3346666693687439,
+      0.30133333802223206,
+      0.3240000009536743,
+      0.3266666531562805,
+      0.35333332419395447,
+      0.35466668009757996,
+      0.29866665601730347,
+      0.31466665863990784,
+      0.3240000009536743,
+      0.3173333406448364,
+      0.31466665863990784,
+      0.36266666650772095,
+      0.3186666667461395,
+      0.3386666774749756
+    ],
+    "val_loss": [
+      3.0360026359558105,
+      2.831277370452881,
+      2.7456085681915283,
+      2.802898645401001,
+      2.9388277530670166,
+      2.713000535964966,
+      2.559541940689087,
+      2.398144006729126,
+      2.177711248397827,
+      2.1129486560821533,
+      2.1278796195983887,
+      2.026987314224243,
+      1.9568533897399902,
+      2.0048298835754395,
+      2.0543251037597656,
+      2.139134645462036,
+      2.096601963043213,
+      2.2086262702941895,
+      2.1066746711730957,
+      2.128323793411255,
+      1.9907115697860718,
+      1.9730165004730225,
+      1.9670445919036865,
+      2.017693042755127,
+      2.0081632137298584,
+      1.9583748579025269,
+      1.9830206632614136,
+      1.9353715181350708,
+      1.9471402168273926,
+      1.9570780992507935,
+      2.020714282989502,
+      2.1483395099639893,
+      2.2182257175445557,
+      2.216402292251587,
+      2.143789291381836,
+      2.0734214782714844,
+      1.9892083406448364,
+      1.9527908563613892,
+      1.9637752771377563,
+      1.9717031717300415,
+      2.0033674240112305,
+      2.000971794128418,
+      1.9954439401626587
+    ],
+    "val_accuracy": [
+      0.04210526496171951,
+      0.12631578743457794,
+      0.11578947305679321,
+      0.10526315867900848,
+      0.14210526645183563,
+      0.15789473056793213,
+      0.17894737422466278,
+      0.15263158082962036,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.21578946709632874,
+      0.24210526049137115,
+      0.27368420362472534,
+      0.2526315748691559,
+      0.24210526049137115,
+      0.24210526049137115,
+      0.2526315748691559,
+      0.22631579637527466,
+      0.22631579637527466,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.2368421107530594,
+      0.2368421107530594,
+      0.23157894611358643,
+      0.2368421107530594,
+      0.2368421107530594,
+      0.24210526049137115,
+      0.24736842513084412,
+      0.2631579041481018,
+      0.24736842513084412,
+      0.23157894611358643,
+      0.2210526317358017,
+      0.2368421107530594,
+      0.23157894611358643,
+      0.2368421107530594,
+      0.24736842513084412,
+      0.24210526049137115,
+      0.25789472460746765,
+      0.25789472460746765,
+      0.2526315748691559,
+      0.2526315748691559,
+      0.2526315748691559,
+      0.25789472460746765
+    ]
+  }
+}

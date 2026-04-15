@@ -53,6 +53,21 @@ public class Prediction {
     @Column(name = "treatment_recommendations", columnDefinition = "TEXT")
     private String treatmentRecommendations;
 
+    @Column(name = "detected_crop")
+    private String detectedCrop;
+
+    @Column(name = "plant_health_score")
+    private Integer plantHealthScore;
+
+    @Column(name = "heatmap_url")
+    private String heatmapUrl;
+
+    @Column(name = "cause", columnDefinition = "TEXT")
+    private String cause;
+
+    @Column(name = "prevention", columnDefinition = "TEXT")
+    private String prevention;
+
     @Column(name = "ai_raw_response", columnDefinition = "TEXT")
     private String aiRawResponse;
 

@@ -79,31 +79,83 @@ public class PredictionService {
             // Call AI service
             JsonNode aiResponse = callAiService(file);
 
-            // Parse AI response — AI service wraps data inside a "data" object
-            JsonNode aiData = aiResponse.has("data") ? aiResponse.get("data") : aiResponse;
-            String diseaseName = aiData.has("disease") ? aiData.get("disease").asText() : "Unknown";
-            double confidence = aiData.has("confidence") ? aiData.get("confidence").asDouble() : 0.0;
+            // Parse AI response
+            String diseaseName = aiResponse.has("disease") ? aiResponse.get("disease").asText() : "Unknown";
+            double confidence = aiResponse.has("confidence") ? aiResponse.get("confidence").asDouble() : 0.0;
             // AI service returns confidence as percentage (0-100), normalize to decimal (0-1)
             if (confidence > 1.0) {
                 confidence = confidence / 100.0;
             }
-            // AI service uses camelCase "isHealthy"
-            boolean isHealthy = aiData.has("isHealthy") ? aiData.get("isHealthy").asBoolean() :
-                    aiData.has("is_healthy") ? aiData.get("is_healthy").asBoolean() :
-                    diseaseName.equalsIgnoreCase("Healthy");
 
-            // Determine severity based on confidence
-            Prediction.Severity severity = determineSeverity(confidence, isHealthy);
+            boolean isHealthy = diseaseName.equalsIgnoreCase("Healthy");
+            if (aiResponse.has("isHealthy")) {
+                isHealthy = aiResponse.get("isHealthy").asBoolean();
+            } else if (aiResponse.has("is_healthy")) {
+                isHealthy = aiResponse.get("is_healthy").asBoolean();
+            }
 
-            // Get treatment recommendations
-            String treatments = getTreatmentRecommendations(diseaseName);
+            // Use AI service severity if available, otherwise compute locally
+            Prediction.Severity severity;
+            String aiSeverity = aiResponse.has("severity") ? aiResponse.get("severity").asText() : null;
+            if (aiSeverity != null && !aiSeverity.isEmpty()) {
+                try {
+                    severity = Prediction.Severity.valueOf(aiSeverity.toUpperCase());
+                } catch (IllegalArgumentException e) {
+                    // Map AI service severity names to enum
+                    switch (aiSeverity.toLowerCase()) {
+                        case "severe": severity = Prediction.Severity.HIGH; break;
+                        case "moderate": severity = Prediction.Severity.MEDIUM; break;
+                        case "low": severity = Prediction.Severity.LOW; break;
+                        default: severity = determineSeverity(confidence, isHealthy);
+                    }
+                }
+            } else {
+                severity = determineSeverity(confidence, isHealthy);
+            }
 
-            // Update prediction with results
+            // Get AI-detected crop name
+            String detectedCrop = aiResponse.has("crop") ? aiResponse.get("crop").asText() : null;
+
+            // Get plant health score (0-100)
+            Integer plantHealthScore = aiResponse.has("plant_health_score")
+                    ? aiResponse.get("plant_health_score").asInt()
+                    : null;
+
+            // Get heatmap URL from AI service
+            String heatmapUrl = aiResponse.has("heatmap_image") ? aiResponse.get("heatmap_image").asText() : null;
+            if (heatmapUrl != null && !heatmapUrl.isEmpty()) {
+                // Convert relative heatmap path to full AI service URL
+                if (!heatmapUrl.startsWith("http")) {
+                    heatmapUrl = aiServiceUrl + "/" + heatmapUrl.replace("\\", "/");
+                }
+            }
+
+            // Get cause and prevention from AI advisory
+            String cause = aiResponse.has("cause") ? aiResponse.get("cause").asText() : null;
+            String prevention = aiResponse.has("prevention") ? aiResponse.get("prevention").asText() : null;
+
+            // Get treatment: prefer AI service treatment, fallback to hardcoded
+            String aiTreatment = aiResponse.has("treatment") ? aiResponse.get("treatment").asText() : null;
+            String treatments = (aiTreatment != null && !aiTreatment.isEmpty())
+                    ? aiTreatment
+                    : getTreatmentRecommendations(diseaseName);
+
+            // Override cropType with AI-detected crop if available
+            if (detectedCrop != null && !detectedCrop.isEmpty() && !detectedCrop.equalsIgnoreCase("Unknown")) {
+                prediction.setCropType(detectedCrop);
+            }
+
+            // Update prediction with all results
             prediction.setDiseaseName(diseaseName);
             prediction.setConfidenceScore(confidence);
             prediction.setIsHealthy(isHealthy);
             prediction.setSeverity(severity);
             prediction.setTreatmentRecommendations(treatments);
+            prediction.setDetectedCrop(detectedCrop);
+            prediction.setPlantHealthScore(plantHealthScore);
+            prediction.setHeatmapUrl(heatmapUrl);
+            prediction.setCause(cause);
+            prediction.setPrevention(prevention);
             prediction.setAiRawResponse(aiResponse.toString());
             prediction.setStatus(Prediction.PredictionStatus.COMPLETED);
 

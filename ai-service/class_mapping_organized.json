@@ -1,0 +1,33 @@
+{
+  "classes": 8,
+  "class_names": [
+    "Apple",
+    "Banana",
+    "Corn",
+    "Grapes",
+    "Mango",
+    "Potato",
+    "Rice",
+    "Tomato"
+  ],
+  "class_to_idx": {
+    "Apple": 0,
+    "Banana": 1,
+    "Corn": 2,
+    "Grapes": 3,
+    "Mango": 4,
+    "Potato": 5,
+    "Rice": 6,
+    "Tomato": 7
+  },
+  "idx_to_class": {
+    "0": "Apple",
+    "1": "Banana",
+    "2": "Corn",
+    "3": "Grapes",
+    "4": "Mango",
+    "5": "Potato",
+    "6": "Rice",
+    "7": "Tomato"
+  }
+}
